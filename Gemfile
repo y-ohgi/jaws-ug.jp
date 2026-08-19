@@ -31,3 +31,8 @@ gem 'html-proofer'
 # gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'webrick'
+
+# Ruby 3.4 removed these from default gems; jekyll (and its deps) require them.
+gem 'csv'
+gem 'base64'
+gem 'bigdecimal'
