@@ -40,7 +40,7 @@ $ bundle exec htmlproofer './_site' --disable-external
 `./.devcontainer/Dockerfile` で Ruby バージョンを変更できます。
 
 ```Dockerfile
-ARG RUBY_VERSION=3.0.4
+ARG RUBY_VERSION=3.4.4
 ```
 
 VS Code の **Dev Containers: Reopen in Container** を実行すると、上記 Dockerfile を使って環境が作成されます。

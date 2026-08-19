@@ -4,7 +4,7 @@ services:
       context: .
       dockerfile: .devcontainer/Dockerfile
       args:
-        RUBY_VERSION: ${RUBY_VERSION:-3.0.4}
+        RUBY_VERSION: ${RUBY_VERSION:-3.4.4}
     working_dir: /workspace
     user: dev
     volumes:
